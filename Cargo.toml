@@ -12,9 +12,9 @@ authors = [
 crate-type = ["staticlib"]
 
 [dependencies]
-rlibc = "0.1.4"                 # Low-level functions like memcpy.
-spin = "0.3.4"                  # Spinlocks.
-x86 = "0.6.0"                   # CPU data structures.
+rlibc = "*"                 # Low-level functions like memcpy.
+spin = "0.9.2"                  # Spinlocks.
+x86 = "*"                   # CPU data structures.
 
 [dependencies.alloc_buddy_simple]
 path = "crates/alloc_buddy_simple"
